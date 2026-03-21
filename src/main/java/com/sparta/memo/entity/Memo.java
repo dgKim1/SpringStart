@@ -1,4 +1,4 @@
-package com.sparta.memo.entitty;
+package com.sparta.memo.entity;
 
 import com.sparta.memo.dto.MemoRequestDto;
 import lombok.Getter;
