@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: memo
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/memo_db?serverTimezone=Asia/Seoul&characterEncoding=UTF-8
+    username: root
+    password: kim6631
+    driver-class-name: com.mysql.cj.jdbc.Driver
