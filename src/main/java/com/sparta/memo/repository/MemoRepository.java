@@ -22,6 +22,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Component
 public interface MemoRepository extends JpaRepository<Memo, Long> {
 
+  List<Memo> findAllByOrderByModifiedAtDesc();
 
 
 }
